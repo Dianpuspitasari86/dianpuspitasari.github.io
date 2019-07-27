@@ -1,0 +1,187 @@
+.home-image {
+    width: 100%;
+    height: 500px;
+  }
+  
+.text {
+    top: 200px;
+    right: 300px;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+}
+  
+nav {
+  background: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.logo img {
+  width: 180px;
+  height: 150px;
+}
+
+.logo,
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.logo,
+.menu1 {
+  padding: 30px 30px;
+}
+
+.menu1 a,
+.logo a {
+  color :#21a8f6;
+}
+
+
+
+.card1 {
+    display: table-cell;
+    height: 400px;
+    margin-top: 4px;
+    padding: 30px auto;
+    text-align: center;
+    width: 400px;
+}
+.fitur {
+  position: relative;
+  text-align: center;
+  top: 30px;
+  margin-bottom: 45px;
+}
+
+.card1:hover {
+  background-color: white;
+  border-color: blue;
+}
+
+.card1 img {
+  padding-top: 0px;
+}
+
+  .gambar {
+    position: relative;
+    float: right;
+    bottom: 10rem;
+    right: 75px;
+  }
+
+  .tulisan {
+    position: static;
+    line-height: 188%;
+    width: 56%;
+    text-align: justify;
+    margin: 31px
+  }
+
+  .homeimage {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    height: 100px;
+    width: 100%;
+    margin-top: 30px;
+    box-shadow: black;
+  }
+  
+  .card-category{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    height: 200px;
+    background-color: white;
+  }
+  
+  .card-image {
+    height: 70%;
+    width: 100%;
+  }
+  
+  .btn {
+    background-color: white;
+    border-color: red;
+    font-size: 20px;
+    transition-duration: 0.5s;
+  }
+  
+  .btn:hover {
+    background: red;
+    color: white;
+  }
+  
+  .container {
+    height: 100px;
+  }
+
+  body{
+    background: #21a8f6;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4{
+  text-align: center;
+}
+
+.judul{
+    text-align: center;
+    margin-bottom: 0px;
+    height: 50px;
+    background-color: whitesmoke;
+    padding:20px 50px 20px 50px;
+}
+ul{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.nav-bar{
+    background-color: aquamarine;
+    overflow: hidden;
+    margin-left: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+.nav-bar ul li{
+    display: inline-block;
+    list-style: none;
+    margin-top: 0px;
+    padding:10px 30px;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav-bar ul li:hover{
+    background-color: black;
+}
+.footer{
+    background-color: white;
+}
+.footer {
+    text-align: center;
+    padding: 22px;
+    color: #21a8f6;
+    position: static;
+}
